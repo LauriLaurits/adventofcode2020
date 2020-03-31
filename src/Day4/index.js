@@ -1,9 +1,9 @@
-// Day 1 Part 1
 if (process.argv.length < 3) {
     process.exit(1);
 }
 const fs = require('fs')
     , input = process.argv[2];
+// Day 4 Part 1
 fs.readFile(input, function (err, data) {
     if (err) throw err;
     const values = data.toString().split("-");
